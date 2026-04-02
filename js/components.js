@@ -40,12 +40,25 @@
         return doc.body.innerHTML;
     }
 
+    // Function to initialize mobile menu toggle
+    function initializeMobileMenu() {
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    }
+
     // Load header
     fetch(basePath + 'components/header.html?v=' + Date.now())
         .then(response => response.text())
         .then(data => {
             const adjustedData = adjustLinks(data);
             document.getElementById('header-placeholder').innerHTML = adjustedData;
+            initializeMobileMenu(); // Initialize menu after loading header
         })
         .catch(error => console.error('Error loading header:', error));
 

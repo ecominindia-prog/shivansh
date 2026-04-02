@@ -1,16 +1,6 @@
 /* Shivansh Refrigeration - Global JS */
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Mobile Menu Toggle
-    const menuBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    
-    if (menuBtn && mobileMenu) {
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-    }
-
     // Floating Buttons Setup (if not already in HTML)
     if (!document.querySelector('.floating-btn')) {
         setupFloatingButtons();
