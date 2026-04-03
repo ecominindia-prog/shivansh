@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             schemaData = {
                 "@context": "https://schema.org",
                 "@type": "LocalBusiness",
-                "name": "Shivansh Refrigeration",
+                "name": "Thane Repair",
                 "image": "https://picsum.photos/seed/ac-repair/800/600",
                 "@id": "",
                 "url": "https://ais-dev-rabrgwkqx3anqzhzylnsgq-197757990855.asia-southeast1.run.app",
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "serviceType": "Air Conditioning Repair",
                 "provider": {
                     "@type": "LocalBusiness",
-                    "name": "Shivansh Refrigeration",
+                    "name": "Thane Repair",
                     "telephone": "098204 22352",
                     "address": {
                         "@type": "PostalAddress",
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "serviceType": "Refrigerator Repair",
                 "provider": {
                     "@type": "LocalBusiness",
-                    "name": "Shivansh Refrigeration",
+                    "name": "Thane Repair",
                     "telephone": "098204 22352",
                     "address": {
                         "@type": "PostalAddress",
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "serviceType": "Washing Machine Repair",
                 "provider": {
                     "@type": "LocalBusiness",
-                    "name": "Shivansh Refrigeration",
+                    "name": "Thane Repair",
                     "telephone": "098204 22352",
                     "address": {
                         "@type": "PostalAddress",
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "serviceType": "Microwave Oven Repair",
                 "provider": {
                     "@type": "LocalBusiness",
-                    "name": "Shivansh Refrigeration",
+                    "name": "Thane Repair",
                     "telephone": "098204 22352",
                     "address": {
                         "@type": "PostalAddress",
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "serviceType": "Electrical Services",
                 "provider": {
                     "@type": "LocalBusiness",
-                    "name": "Shivansh Refrigeration",
+                    "name": "Thane Repair",
                     "telephone": "098204 22352",
                     "address": {
                         "@type": "PostalAddress",
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "serviceType": "Plumbing Services",
                 "provider": {
                     "@type": "LocalBusiness",
-                    "name": "Shivansh Refrigeration",
+                    "name": "Thane Repair",
                     "telephone": "098204 22352",
                     "address": {
                         "@type": "PostalAddress",
@@ -374,7 +374,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "serviceType": "Gas Appliance Repair",
                 "provider": {
                     "@type": "LocalBusiness",
-                    "name": "Shivansh Refrigeration",
+                    "name": "Thane Repair",
                     "telephone": "098204 22352",
                     "address": {
                         "@type": "PostalAddress",

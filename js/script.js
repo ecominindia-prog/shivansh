@@ -1,4 +1,4 @@
-/* Shivansh Refrigeration - Global JS */
+/* Thane Repair - Global JS */
 
 document.addEventListener('DOMContentLoaded', () => {
     // Floating Buttons Setup (if not already in HTML)
